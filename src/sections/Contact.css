@@ -1,0 +1,53 @@
+#contact {
+  padding: 120px 10%;
+  background: #ffffff;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: -2px;
+  margin-bottom: 20px;
+  color: #1a1a1a;
+}
+
+#contact p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 35px;
+}
+
+#contact a {
+  display: inline-block;
+  padding: 16px 32px;
+  background: #1a1a1a;
+  color: white;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+#contact a:hover {
+  background: #444;
+  transform: translateY(-3px);
+}
+@media (max-width: 768px) {
+  #contact {
+    padding: 80px 24px;
+  }
+
+  #contact h2 {
+    font-size: 32px;
+    letter-spacing: -1px;
+  }
+
+  #contact p {
+    font-size: 16px;
+  }
+
+  #contact a {
+    padding: 14px 28px;
+  }
+}
