@@ -7,12 +7,13 @@ import ProjectDetails from "./sections/ProjectDetails";
 import { projects } from "./data/projects";
 import Contact from "./sections/Contact";
 import About from "./sections/About";
+import ThemeToggle from "./components/ThemeToggle";
 
 
 function App() {
   return (
     <>
-    
+        <ThemeToggle />
     <Routes>
       <Route
   path="/"
