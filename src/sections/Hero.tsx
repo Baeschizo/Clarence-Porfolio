@@ -1,6 +1,7 @@
 
 import "./Hero.css";
 import { Link } from "react-router-dom";
+import { FiArrowUpRight } from "react-icons/fi";
 
 import {
   SiPython,
@@ -31,7 +32,7 @@ function Hero() {
      
         <div className="hero-actions">
   <Link to="/work" className="hero-button-primary">
-    View My Work ↗
+  View My Work <FiArrowUpRight size={16} />
   </Link>
 
  <a
