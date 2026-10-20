@@ -11,6 +11,8 @@ import About from "./sections/About";
 
 function App() {
   return (
+    <>
+    
     <Routes>
       <Route
   path="/"
@@ -45,6 +47,7 @@ function App() {
         />
       ))}
     </Routes>
+    </>
   );
 }
 

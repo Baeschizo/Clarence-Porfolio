@@ -67,3 +67,21 @@
     font-size: 13px;
   }
 }
+body.dark .about {
+  background-color: #111111;
+  color: #ffffff;
+}
+
+body.dark .about h2,
+body.dark .about h3 {
+  color: #ffffff;
+}
+
+body.dark .about p {
+  color: #b5b5b5;
+}
+
+body.dark .about-skills span {
+  background-color: #252525;
+  color: #eeeeee;
+}

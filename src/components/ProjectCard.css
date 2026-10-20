@@ -75,3 +75,34 @@
 .project-card:hover .project-card-image img {
   transform: scale(1.04);
 }
+/* Project Cards Dark Mode */
+
+body.dark .project-card {
+  background-color: #252525;
+  border: 1px solid #383838;
+}
+
+body.dark .project-card h3 {
+  color: #ffffff;
+}
+
+body.dark .project-card p {
+  color: #b5b5b5;
+}
+
+body.dark .project-card:hover {
+  border-color: #ffffff;
+}
+/* Remove default link styling */
+
+.project-card,
+.project-card:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-card a,
+.project-card a:visited {
+  text-decoration: none;
+  color: inherit;
+}

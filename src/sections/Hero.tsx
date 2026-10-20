@@ -2,6 +2,15 @@
 import "./Hero.css";
 import { Link } from "react-router-dom";
 
+import {
+  SiPython,
+  SiReact,
+  SiTypescript,
+  SiFlask,
+  SiSqlite,
+} from "react-icons/si";
+
+
 function Hero() {
   return (
     <section className="hero" id="home">
@@ -37,12 +46,26 @@ function Hero() {
   <p className="hero-tech-label">TECH I USE</p>
 
   <div className="hero-tech-list">
-    <span>Python</span>
-    <span>React</span>
-    <span>TypeScript</span>
-    <span>Flask</span>
-    <span>SQLite</span>
-  </div>
+  <span className="tech-item">
+    <SiPython /> Python
+  </span>
+
+  <span className="tech-item">
+    <SiReact /> React
+  </span>
+
+  <span className="tech-item">
+    <SiTypescript /> TypeScript
+  </span>
+
+  <span className="tech-item">
+    <SiFlask /> Flask
+  </span>
+
+  <span className="tech-item">
+    <SiSqlite /> SQLite
+  </span>
+</div>
 </div>
 
 

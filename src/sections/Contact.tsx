@@ -1,7 +1,7 @@
 import "./Contact.css";
 function Contact() {
   return (
-    <section id="contact">
+    <section id="contact" className="contact">
       <h2>Let's Work Together</h2>
 
       <p>

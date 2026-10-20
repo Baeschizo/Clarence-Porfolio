@@ -1,5 +1,6 @@
 
 import "./Navbar.css";
+import ThemeToggle from "./ThemeToggle";
 import { Link } from "react-router-dom";
 function Navbar() {
   return (
@@ -10,6 +11,7 @@ function Navbar() {
 <a href="/work#projects">Projects</a>
 <a href="/work#contact">Contact</a>
       </nav>
+      <ThemeToggle />
 
      <a href="/work#contact" className="navbar-contact">
   Let's Talk ↗
