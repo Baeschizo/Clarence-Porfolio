@@ -13,7 +13,9 @@ import ThemeToggle from "./components/ThemeToggle";
 function App() {
   return (
     <>
-        <ThemeToggle />
+      <div className="theme-toggle-container">
+  <ThemeToggle />
+</div>
     <Routes>
       <Route
   path="/"

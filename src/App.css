@@ -182,3 +182,17 @@
     border-right-color: var(--border);
   }
 }
+.theme-toggle-container {
+  position: absolute;
+  top: 20px;
+  right: 24px;
+  z-index: 100;
+}
+
+@media (max-width: 768px) {
+  .theme-toggle-container {
+    top: 12px;
+    right: 12px;
+  }
+}
+
