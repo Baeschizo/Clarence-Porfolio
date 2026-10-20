@@ -3,13 +3,6 @@ import "./Hero.css";
 import { Link } from "react-router-dom";
 import { FiArrowUpRight } from "react-icons/fi";
 
-import {
-  SiPython,
-  SiReact,
-  SiTypescript,
-  SiFlask,
-  SiSqlite,
-} from "react-icons/si";
 
 
 function Hero() {
@@ -45,26 +38,38 @@ function Hero() {
 </div>
 <div className="hero-tech">
   <p className="hero-tech-label">TECH I USE</p>
-
   <div className="hero-tech-list">
   <span className="tech-item">
-    <SiPython /> Python
+    <img
+  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
+  alt="Python"
+  className="tech-logo"
+/>
+    Python
   </span>
 
   <span className="tech-item">
-    <SiReact /> React
+    <i className="devicon-react-original colored"></i>
+    React
   </span>
 
   <span className="tech-item">
-    <SiTypescript /> TypeScript
+    <i className="devicon-typescript-plain colored"></i>
+    TypeScript
   </span>
 
   <span className="tech-item">
-    <SiFlask /> Flask
+   <img
+  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg"
+  alt="Flask"
+  className="tech-logo flask-logo"
+/>
+    Flask
   </span>
 
   <span className="tech-item">
-    <SiSqlite /> SQLite
+    <i className="devicon-sqlite-plain colored"></i>
+    SQLite
   </span>
 </div>
 </div>

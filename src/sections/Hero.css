@@ -275,3 +275,27 @@ body.dark .hero-tech-list span {
   background-color: #242428;
   color: #e5e5e5;
 }
+.tech-item i {
+  font-size: 26px;
+  line-height: 1;
+}
+
+body.dark .devicon-flask-original {
+  color: #ffffff;
+}
+.tech-logo {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+.flask-logo {
+  filter: brightness(0);
+}
+
+body.dark .flask-logo {
+  filter: brightness(0) invert(1);
+}
+body:not(.dark) .hero .tech-item {
+  background-color: #e8eaee;
+  border: 1px solid #dfe2e7;
+}
