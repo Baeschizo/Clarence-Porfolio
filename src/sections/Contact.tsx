@@ -4,13 +4,19 @@ function Contact() {
     <section id="contact" className="contact">
       <h2>Let's Work Together</h2>
 
-      <p>
-        Have a project in mind? Let's build something great.
-      </p>
+    <p>
+  Open to internship opportunities, collaborations,
+  and exciting software development projects.
+  Let's connect and build something meaningful.
+</p>
 
-      <a href="mailto:clarencejaranilla2@gmail.com">
-        Get In Touch
-      </a>
+      <a
+  href="https://mail.google.com/mail/?view=cm&fs=1&to=clarencejaranilla2%40gmail.com"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  Get In Touch
+</a>
     </section>
   );
 }

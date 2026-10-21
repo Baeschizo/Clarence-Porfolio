@@ -299,3 +299,103 @@ body:not(.dark) .hero .tech-item {
   background-color: #e8eaee;
   border: 1px solid #dfe2e7;
 }
+/* Minimal Social Icons */
+
+.hero-socials {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 24px;
+}
+
+.hero-socials a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #6b7280;
+  font-size: 21px;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.hero-socials a:hover {
+  color: #2563eb;
+  transform: translateY(-3px);
+}
+
+body.dark .hero-socials a {
+  color: #a1a1aa;
+}
+
+body.dark .hero-socials a:hover {
+  color: #60a5fa;
+}
+/* Home Social Footer */
+
+.hero-footer {
+  grid-column: 1 / -1;
+  width: 100%;
+  margin-top: 48px;
+  text-align: center;
+}
+
+.hero-footer-line {
+  width: 120px;
+  height: 1px;
+  background: #d1d5db;
+  margin: 0 auto 22px;
+}
+
+.hero-socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+}
+
+.hero-socials a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  color: #6b7280;
+  text-decoration: none;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.hero-socials a:hover {
+  color: #2563eb;
+  transform: translateY(-3px);
+}
+
+/* Dark Mode */
+
+body.dark .hero-footer-line {
+  background: #444;
+}
+
+body.dark .hero-socials a {
+  color: #a1a1aa;
+}
+
+body.dark .hero-socials a:hover {
+  color: #60a5fa;
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+  .hero-footer {
+    margin-top: 32px;
+    padding-bottom: 24px;
+  }
+}
+/* Clean solid background */
+.hero {
+  background: #f5f6f8;
+  background-image: none;
+}
+
+body.dark .hero {
+  background: #111111;
+  background-image: none;
+}

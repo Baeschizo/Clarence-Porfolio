@@ -106,3 +106,57 @@ body.dark .project-card:hover {
   text-decoration: none;
   color: inherit;
 }
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card-footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: auto;
+  padding-top: 22px;
+}
+
+.project-card-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 7px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.project-card-status.completed {
+  background: #e8f7ed;
+  color: #15803d;
+}
+
+.project-card-status.in-progress {
+  background: #fff3e5;
+  color: #b45309;
+}
+
+.status-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+
+/* Stronger green — Completed */
+.project-card-status.completed {
+  background: #dcfce7;
+  color: #15803d;
+  border: 1px solid #22c55e;
+}
+
+/* Stronger orange — In Progress */
+.project-card-status.in-progress {
+  background: #ffedd5;
+  color: #c2410c;
+  border: 1px solid #f97316;
+}

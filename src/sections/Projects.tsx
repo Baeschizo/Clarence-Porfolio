@@ -19,6 +19,7 @@ function Projects() {
     technologies={project.technologies}
     image={project.image}
     slug={project.slug}
+    status={project.status}
   />
 ))}
 

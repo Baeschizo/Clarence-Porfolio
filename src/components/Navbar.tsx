@@ -12,10 +12,6 @@ function Navbar() {
 <a href="/work#contact">Contact</a>
       </nav>
       <ThemeToggle />
-
-     <a href="/work#contact" className="navbar-contact">
-  Let's Talk ↗
-</a>
     </header>
   );
 }

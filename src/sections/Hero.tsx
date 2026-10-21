@@ -2,6 +2,7 @@
 import "./Hero.css";
 import { Link } from "react-router-dom";
 import { FiArrowUpRight } from "react-icons/fi";
+import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
 
 
 
@@ -82,6 +83,40 @@ function Hero() {
     alt="AI and Robotics laptop visual"
   />
 </div>
+
+<footer className="hero-footer">
+  <div className="hero-footer-line"></div>
+
+  <div className="hero-socials">
+    <a
+      href="https://github.com/Baeschizo"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="GitHub"
+    >
+      <FaGithub />
+    </a>
+
+    <a
+      href="https://www.linkedin.com/in/clarence-jaranilla-370316273"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="LinkedIn"
+    >
+      <FaLinkedin />
+    </a>
+
+    <a
+      href="https://www.facebook.com/clarence.jaranilla.33"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Facebook"
+    >
+      <FaFacebook />
+    </a>
+  </div>
+</footer>
+
     </section>
   );
 }

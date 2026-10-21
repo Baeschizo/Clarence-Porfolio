@@ -40,12 +40,17 @@ function App() {
           key={project.id}
           path={`/projects/${project.slug}`}
           element={
-            <ProjectDetails
-              title={project.title}
-              description={project.description}
-              image={project.image}
-              technologies={project.technologies}
-            />
+           <ProjectDetails
+  title={project.title}
+  description={project.description}
+  image={project.image}
+  technologies={project.technologies}
+  status={project.status}
+  overview={project.overview}
+  features={project.features}
+  github={project.github}
+  liveDemo={project.liveDemo}
+/>
           }
         />
       ))}

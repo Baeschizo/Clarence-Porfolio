@@ -1,3 +1,4 @@
+
 import "./ProjectCard.css";
 import { Link } from "react-router-dom";
 
@@ -8,6 +9,7 @@ type ProjectCardProps = {
   technologies: string;
   image: string;
   slug: string;
+  status: string;
 };
 
 function ProjectCard({
@@ -17,15 +19,18 @@ function ProjectCard({
   technologies,
   image,
   slug,
+  status,
 }: ProjectCardProps) {
+  const isCompleted = status === "Completed";
+
   return (
-<Link
-  to={`/projects/${slug}`}
-  className="project-card"
->
+    <Link
+      to={`/projects/${slug}`}
+      className="project-card"
+    >
       <div className="project-card-image">
-  <img src={image} alt={`${title} preview`} />
-</div>
+        <img src={image} alt={`${title} preview`} />
+      </div>
 
       <p className="project-card-category">{category}</p>
 
@@ -38,6 +43,17 @@ function ProjectCard({
       <p className="project-card-technologies">
         {technologies}
       </p>
+
+      <div className="project-card-footer">
+        <span
+          className={`project-card-status ${
+            isCompleted ? "completed" : "in-progress"
+          }`}
+        >
+          <span className="status-dot"></span>
+          {isCompleted ? "Completed" : "In Development"}
+        </span>
+      </div>
     </Link>
   );
 }
