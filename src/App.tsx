@@ -8,14 +8,16 @@ import { projects } from "./data/projects";
 import Contact from "./sections/Contact";
 import About from "./sections/About";
 import ThemeToggle from "./components/ThemeToggle";
+import "./App.css";
 
 
 function App() {
   return (
-    <>
-      <div className="theme-toggle-container">
-  <ThemeToggle />
-</div>
+  <>
+    <div className="theme-toggle-container">
+      <ThemeToggle />
+    </div>
+
     <Routes>
       <Route
   path="/"

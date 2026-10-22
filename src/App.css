@@ -195,4 +195,11 @@
     right: 12px;
   }
 }
+.theme-toggle-container {
+  position: fixed;
+  top: 24px;
+  right: 32px;
+  left: auto;
+  z-index: 1000;
+}
 
