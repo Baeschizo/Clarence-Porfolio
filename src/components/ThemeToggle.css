@@ -1,25 +1,21 @@
 .theme-toggle {
-  position: absolute;
-  top: 25px;
-  right: 6%;
-  transform: translateY(-50%);
-  z-index: 10;
-
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 8px;
 
-  padding: 10px 18px;
-  border: 2px solid #1a1a1a;
-  border-radius: 12px;
+  padding: 8px 14px;
+  border: 1.5px solid #1a1a1a;
+  border-radius: 8px;
 
-  background: #ffffff;
-  color: #1a1a1a;
+  background: #f5f5f5;
+  color: #181818;
 
-  font-size: 14px;
+  font-size: 12px;
+  font-weight: 500;
   cursor: pointer;
-  transition: all 0.3s ease;
+  white-space: nowrap;
+  transition: background 0.25s ease, color 0.25s ease;
 }
 
 .theme-toggle:hover {
@@ -27,25 +23,43 @@
 }
 
 body.dark .theme-toggle {
-  background: #242424;
-  color: #fff;
+  background: #111111;
+  color: #ffffff;
   border-color: #ffffff;
 }
 
 body.dark .theme-toggle:hover {
-  background: #333;
+  background: #242424;
+}.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  padding: 8px 14px;
+  border: 1.5px solid #1a1a1a;
+  border-radius: 8px;
+
+  background: #f5f5f5;
+  color: #181818;
+
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.25s ease, color 0.25s ease;
 }
 
-@media (max-width: 768px) {
-  .theme-toggle {
-    top: 16px;
-    right: 16px;
-    transform: none;
-  }
+.theme-toggle:hover {
+  background: #eaeaea;
 }
 
 body.dark .theme-toggle {
   background: #111111;
   color: #ffffff;
   border-color: #ffffff;
+}
+
+body.dark .theme-toggle:hover {
+  background: #242424;
 }

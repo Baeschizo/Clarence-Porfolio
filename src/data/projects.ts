@@ -9,7 +9,7 @@ export const projects = [
     image: "/images/finance-tracker.png",
     slug: "smart-finance-tracker",
 
-    status: "In Development",
+   status: "Live Demo Available",
 
     overview:
       "A personal finance application designed to help users manage their income, track expenses, and understand their spending habits.",
@@ -22,8 +22,8 @@ export const projects = [
       "Budget Monitoring",
     ],
 
-    github: "",
-    liveDemo: "",
+   github: "https://github.com/Baeschizo/smart-personal-finance-tracker",
+liveDemo: "https://smart-personal-finance-tracker-rust.vercel.app",
   },
   {
     id: 2,
