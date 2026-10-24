@@ -22,7 +22,7 @@ export const projects = [
       "Budget Monitoring",
     ],
 
-   github: "https://github.com/Baeschizo/smart-personal-finance-tracker",
+   github: "",
 liveDemo: "https://smart-personal-finance-tracker-rust.vercel.app",
   },
   {
@@ -48,6 +48,6 @@ liveDemo: "https://smart-personal-finance-tracker-rust.vercel.app",
     ],
 
     github: "",
-    liveDemo: "",
+    liveDemo: "https://www.hdparfums.com/?fbclid=IwY2xjawVI60RleHRuA2FlbQIxMABwZG9mBWJyaWQRMWpuekFOMzl0ZWNpNnNmU1ZzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEe2p2MCbZRTIHdN8oX7L1kBmX5dYJ_ViHK8k3zfr3tFSKBJCKgsYkRIG2FvQI_aem_xGUWdtbcCCkKW1uSSbxD5g",
   },
 ];
