@@ -63,7 +63,7 @@ liveDemo: "https://smart-personal-finance-tracker-rust.vercel.app",
   image: "/images/gift-card-savers.png",
   slug: "gift-card-savers",
 
-  status: "Completed · Live Website",
+ status: "Completed",
 
   overview:
     "A production-ready digital voucher marketplace built for trading card collectors. The platform features secure online payments, automated voucher delivery, encrypted inventory management, and a dedicated administrative dashboard.",
