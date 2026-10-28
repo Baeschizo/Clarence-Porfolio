@@ -50,4 +50,38 @@ liveDemo: "https://smart-personal-finance-tracker-rust.vercel.app",
     github: "",
     liveDemo: "https://www.hdparfums.com/?fbclid=IwY2xjawVI60RleHRuA2FlbQIxMABwZG9mBWJyaWQRMWpuekFOMzl0ZWNpNnNmU1ZzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEe2p2MCbZRTIHdN8oX7L1kBmX5dYJ_ViHK8k3zfr3tFSKBJCKgsYkRIG2FvQI_aem_xGUWdtbcCCkKW1uSSbxD5g",
   },
+
+  
+{
+  id: 3,
+  title: "Gift Card Savers",
+  description:
+    "A full-stack e-commerce platform for discounted trading card grading vouchers.",
+  category: "FULL-STACK E-COMMERCE",
+  technologies:
+    "Next.js · React · TypeScript · Prisma · PostgreSQL · Supabase",
+  image: "/images/gift-card-savers.png",
+  slug: "gift-card-savers",
+
+  status: "Completed · Live Website",
+
+  overview:
+    "A production-ready digital voucher marketplace built for trading card collectors. The platform features secure online payments, automated voucher delivery, encrypted inventory management, and a dedicated administrative dashboard.",
+
+  features: [
+    "PayMongo & PayPal Payment Integration",
+    "Automatic USD-to-PHP Currency Conversion",
+    "Automated Digital Voucher Delivery via Email",
+    "Encrypted Voucher Inventory & Bulk Upload",
+    "Order Tracking & Admin Dashboard",
+    "Responsive E-Commerce Website",
+  ],
+
+  github: "",
+  liveDemo: "https://www.giftcardsavers.shop",
+},
+
+
 ];
+
+
