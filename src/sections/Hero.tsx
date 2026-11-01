@@ -33,6 +33,7 @@ const techGroups = [
       { name: "SQLite", icon: "devicon-sqlite-plain colored" },
       { name: "PostgreSQL", icon: "devicon-postgresql-plain colored" },
       { name: "Supabase", icon: "devicon-supabase-plain colored" },
+      { name: "Firebase", icon: "devicon-firebase-plain colored" },
     ],
   },
   {
