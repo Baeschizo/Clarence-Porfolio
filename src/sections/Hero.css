@@ -399,3 +399,58 @@ body.dark .hero {
   background: #111111;
   background-image: none;
 }
+
+/* Grouped technology badges */
+.hero-tech-groups {
+  display: grid;
+  gap: 16px;
+}
+
+.hero-tech-group-label {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  color: #777b85;
+  margin: 0 0 8px;
+}
+
+.hero-tech-group .hero-tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.hero-tech-group .tech-item {
+  padding: 9px 12px;
+  gap: 8px;
+  border-radius: 9px;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.hero-tech-group .tech-item i {
+  font-size: 21px;
+}
+
+body.dark .hero-tech-group-label {
+  color: #a1a1aa;
+}
+
+body.dark .tech-item .devicon-nextjs-original,
+body.dark .tech-item .devicon-flask-original,
+body.dark .tech-item .devicon-prisma-original,
+body.dark .tech-item .devicon-github-original,
+body.dark .tech-item .devicon-vercel-original {
+  filter: invert(1);
+}
+
+@media (max-width: 768px) {
+  .hero-tech-groups {
+    gap: 14px;
+  }
+
+  .hero-tech-group .tech-item {
+    padding: 8px 10px;
+    font-size: 12px;
+  }
+}
