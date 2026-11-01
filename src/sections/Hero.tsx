@@ -70,8 +70,8 @@ function Hero() {
   </Link>
 
  <a
-  href="/Jaranilla_Clarence_cv.pdf"
-  download="Jaranilla_Clarence_cv.pdf"
+  href="/Clarence_Jaranilla_cv.pdf"
+  download="Clarence_Jaranilla_cv.pdf"
   className="hero-button-secondary"
 >
   Download CV ↓
