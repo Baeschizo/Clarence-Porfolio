@@ -6,6 +6,45 @@ import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
 
 
 
+const techGroups = [
+  {
+    label: "PROGRAMMING",
+    items: [
+      { name: "Python", icon: "devicon-python-plain colored" },
+      { name: "JavaScript", icon: "devicon-javascript-plain colored" },
+      { name: "TypeScript", icon: "devicon-typescript-plain colored" },
+      { name: "C++", icon: "devicon-cplusplus-plain colored" },
+    ],
+  },
+  {
+    label: "FRONTEND",
+    items: [
+      { name: "React", icon: "devicon-react-original colored" },
+      { name: "Next.js", icon: "devicon-nextjs-original" },
+      { name: "HTML5", icon: "devicon-html5-plain colored" },
+      { name: "CSS3", icon: "devicon-css3-plain colored" },
+    ],
+  },
+  {
+    label: "BACKEND & DATABASES",
+    items: [
+      { name: "Flask", icon: "devicon-flask-original" },
+      { name: "Prisma", icon: "devicon-prisma-original" },
+      { name: "SQLite", icon: "devicon-sqlite-plain colored" },
+      { name: "PostgreSQL", icon: "devicon-postgresql-plain colored" },
+      { name: "Supabase", icon: "devicon-supabase-plain colored" },
+    ],
+  },
+  {
+    label: "DEVELOPER TOOLS",
+    items: [
+      { name: "Git", icon: "devicon-git-plain colored" },
+      { name: "GitHub", icon: "devicon-github-original" },
+      { name: "Vercel", icon: "devicon-vercel-original" },
+    ],
+  },
+];
+
 function Hero() {
   return (
     <section className="hero" id="home">
@@ -39,40 +78,21 @@ function Hero() {
 </div>
 <div className="hero-tech">
   <p className="hero-tech-label">TECH I USE</p>
-  <div className="hero-tech-list">
-  <span className="tech-item">
-    <img
-  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
-  alt="Python"
-  className="tech-logo"
-/>
-    Python
-  </span>
-
-  <span className="tech-item">
-    <i className="devicon-react-original colored"></i>
-    React
-  </span>
-
-  <span className="tech-item">
-    <i className="devicon-typescript-plain colored"></i>
-    TypeScript
-  </span>
-
-  <span className="tech-item">
-   <img
-  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg"
-  alt="Flask"
-  className="tech-logo flask-logo"
-/>
-    Flask
-  </span>
-
-  <span className="tech-item">
-    <i className="devicon-sqlite-plain colored"></i>
-    SQLite
-  </span>
-</div>
+  <div className="hero-tech-groups">
+    {techGroups.map((group) => (
+      <div className="hero-tech-group" key={group.label}>
+        <p className="hero-tech-group-label">{group.label}</p>
+        <div className="hero-tech-list">
+          {group.items.map((tech) => (
+            <span className="tech-item" key={tech.name}>
+              <i className={tech.icon} aria-hidden="true" />
+              {tech.name}
+            </span>
+          ))}
+        </div>
+      </div>
+    ))}
+  </div>
 </div>
 
 
